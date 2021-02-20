@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Disco</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+    <!--BOOT STRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <!--STYLE SHEET-->
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+<body>
+    <header class="container-fluid d-flex justify-content-center">
+        <div class="row ">
+            <div class="col">
+                <h1>Weather Disco</h1>
+            </div>
+        </div>
+    </header>
+    <main class="container-fluid">
+        <div class="row">
+        <aside class="col-sm-2">
+            <h2>Search For a City</h2>
+            <div class="input-group mb-3">
+                <form id="citySearched">
+                <input id="cityInput"type="text" class="form-control" placeholder="Search City">
+                <button class="btn">Search</button>
+                </form>
+                <div id="cities"></div>
+            </div>
+        </aside>
+        <article class="col-sm-10">
+            <div class="row">
+                <div id="todaybox" class="col">
+            <br>
+        </div>
+            </div>
+            <div class="row">
+            <div id="fivedaybox" class="col">
+            <h3>5 Day Forecast:</h2>
+            
+            <div class="row">
+                <div id="oneday" class="col-md-2 fivebox"></div>
+                <div id="twoday" class="col-md-2  fivebox"></div>
+                <div id="threeday" class="col-md-2  fivebox"></div>
+                <div id="fourthday"  class="col-md-2  fivebox"></div>
+                <div id="fifthday"  class="col-md-2  fivebox"></div>
+            </div>
+            
+        </div>
+        </div>
+        </article>
+        </div>
+    </main>
+    
+    <div class="jumbotron text-center" style="margin-bottom:0">
+    </div>
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+header{
+    background: #14453D;
+}
+main {
+    background: #3D7068w;
+    width: 100%;
+    margin: 0px;
+}
+#top{
+    background: #43C59E;
+}
+#five {
+    background: #3DFAFF;
+}
+aside{
+    background: #48BEFF;
+    border-radius: 10px;
+}
+#todaybox{
+    background: #43C59E;
+    border-radius: 10px;
+    box-shadow: 5px 4px 20px #14453D;
+}
+.fivebox{
+    height: 300px;
+    flex: 15%;
+    background: #43C59E;
+    border-style: solid;
+    border-color: #43C59E;
+    border-radius: 10px;
+    box-shadow: 5px 4px 20px #14453D;
+    margin: 5px;
+
+}
+.row{
+    margin-bottom: 10px;
+    display: flex;
+}
